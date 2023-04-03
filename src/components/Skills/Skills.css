@@ -1,7 +1,6 @@
 .skills{
     margin-top: 3rem;
     min-height: 90vh;
-    padding: 1rem;
     padding-top: 5rem;
   
 }
@@ -10,18 +9,16 @@
     font-size: 3rem;
     font-weight: bold;
     color: rgb(218, 176, 61);
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .skills-main{
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .logo-div{
     border: 0.5rem solid;
     border-color:  aqua rgb(218, 176, 61)  rgb(218, 176, 61)  aqua;
     width: 100%;
     height: auto;
-    margin: 1rem;
-    padding: 1rem;
     border-radius: 4rem 0;
     box-shadow: 1rem 1rem 1rem rgb(2, 238, 255);
     
@@ -96,5 +93,58 @@ margin: 2rem auto;
     .intro-floating{
         position: relative;
     }
+    .skills-main{
+        margin-left: 1rem;
+    }
     
+}
+
+@media only screen  and (max-width:900px) {
+    
+    .skills{
+        margin-top: 3rem;
+        min-height: 90vh;
+       
+        padding-top: 5rem;
+    }
+    
+    .skills>span:nth-of-type(1){
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: rgb(218, 176, 61);
+    }
+    .logo-div{
+        border: 0.5rem solid;
+        border-color:  aqua rgb(218, 176, 61)  rgb(218, 176, 61)  aqua;
+        width: 100%;
+        height: auto;
+        margin: 0.8rem;
+        padding: 0.8rem;
+        border-radius: 4rem 0;
+        box-shadow: 1rem 1rem 1rem rgb(2, 238, 255);
+    }
+    .logo-div>.row>*{
+    padding: 1rem;
+    margin: 1rem auto;
+    }
+    
+    .intro-floating{
+        position: relative;
+    }
+    .skills-main{
+        margin-left: 0.8rem;
+    }
+    
+}
+
+
+@media only screen  and (max-width:770px) {
+    
+    .float-right{
+        margin-top: 3rem;
+        min-height: 50vh;
+    }
+    .skills-main{
+        margin-left: -2rem;
+    }
 }
