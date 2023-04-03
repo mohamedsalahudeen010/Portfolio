@@ -1,0 +1,12 @@
+
+.blur-main{
+    position: absolute;
+}
+.blur{
+    position:"absolute";
+    width:15rem;
+    height:15rem;
+    border-radius:50%;
+    z-index:-9;
+    filter:blur(80px)
+}

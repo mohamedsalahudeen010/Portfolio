@@ -1,0 +1,18 @@
+.card{
+    width: 10rem;
+    height: 13rem;
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(47, 48, 48);
+    border: 2px solid white;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 1rem rgb(78, 77, 77);
+}
+.card>img{
+    width: 10rem;
+    height: 10rem;
+}

@@ -1,0 +1,228 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+    min-height: 90vh;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    margin-left: 5rem;
+}
+
+.about-left{
+    text-align: center;
+}
+.about-left>*{
+    padding: 0.5rem;
+}
+.about-left>span:nth-of-type(1){
+color: orange;
+font-size: 3rem;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-left>div{
+    color: rgb(38, 255, 0);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1rem;
+    }
+
+ .about-left>span{
+    
+    font-size:1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    } 
+
+.about-right{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.about-right-main-circle{
+    position: relative;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 100%;
+    box-shadow: 0.5rem 0.5rem 1rem  rgb(81, 169, 189);
+    background-color: antiquewhite;
+    left: 30%;
+}
+
+.about-right-main-circle>*{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.about-right-secondary-circle{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    border-radius: 100%;
+    background: white;
+    border: 1px solid gray;
+}
+
+.about-right-main-circle>:nth-child(1){
+    top: -15%;
+    left: 35%;
+   
+}
+.about-right-main-circle>:nth-child(2){
+   
+    top: 35%;
+    left:85%;
+   
+}
+.about-right-main-circle>:nth-child(3){
+    top:85%;
+    left: 35%;
+    
+}
+.about-right-main-circle>:nth-child(4){
+   
+    top: 35%;
+    left:-15%;
+}
+.about-right-main-circle>:nth-child(5){
+    width: 8rem;
+    height: 8rem;
+    top: 33%;
+    left:33%;
+    
+}
+.about-right-main-circle>:nth-child(1)>img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 100%;
+    transform: scale(0.7);
+}
+.about-right-main-circle>:nth-child(2)>img{
+    width: 8rem;
+    height: 8rem;
+    transform: scale(0.8);
+}
+.about-right-main-circle>:nth-child(3)>img{
+    width: 10rem;
+    height: 10rem;
+    transform: scale(0.8);
+}
+.about-right-main-circle>:nth-child(4)>img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    transform: scale(0.9);
+}
+.about-right-main-circle>:nth-child(5)>img{
+    width: 8rem;
+    height: 8rem;
+    
+}
+
+
+@media only screen and (max-width:1200px){
+    .container{
+        min-height: 90vh;
+        padding: 1rem;
+        margin-top: 3rem;
+        padding-top: 4rem;
+        margin-left: 1rem
+    }
+    
+    .about-left{
+        text-align: center;
+    }
+    .about-left>*{
+        padding: 0.5rem;
+    }
+    .about-left>span:nth-of-type(1){
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .about-left>div{
+        color: rgb(38, 255, 0);
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: -1rem;
+        }
+    
+     .about-left>span{
+        
+        font-size:1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        display: inline-block;
+    
+        } 
+    
+    .about-right{
+        position: relative;
+        margin-top: 10rem;
+        transform: scale(0.8);
+      
+    
+    }
+    
+   
+}
+
+
+@media only screen and (max-width:800px){
+    .container{
+        min-height: 90vh;
+        padding: 1rem;
+        margin-top: 0rem;
+        padding-top: 4rem;
+       margin-left: 0;
+    }
+    
+    .about-left{
+        text-align: center;
+    }
+    .about-left>*{
+        padding: 0.5rem;
+    }
+    .about-left>span:nth-of-type(1){
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .about-left>div{
+        color: rgb(38, 255, 0);
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: -1rem;
+        }
+    
+     .about-left>span{
+        
+        font-size:0.7rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        display: inline-block;
+    
+        } 
+    
+    .about-right{
+        position: relative;
+        margin-top: 2rem;
+        transform: scale(0.7);
+       
+    
+    }
+    
+   
+}

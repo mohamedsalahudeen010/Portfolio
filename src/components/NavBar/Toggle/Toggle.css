@@ -1,0 +1,23 @@
+.toggle{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(191, 194, 92);
+    padding: 0.3rem ;
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle>*{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.2rem;
+    
+}
+.toggle-btn{
+    border-radius: 100%;
+    background-color:rgb(191, 194, 92);
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+}

@@ -1,0 +1,74 @@
+.circle{
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 0.5rem solid rgb(186, 143, 33);
+    flex-direction: row;
+}
+.circle>div{
+    flex-direction: row;
+        width: 6rem;
+        height: 6rem;
+        box-shadow: 0.5rem 0.5rem 0.5rem black;
+        border-radius: 100%;
+        
+}
+.circle>div>img{
+    
+    width: 6rem;
+    height: 6rem;
+   transform: scale(0.8);
+   
+}
+
+
+@media only screen and (max-width:1200px) {
+    .circle{
+        width: 5rem;
+        height: 5rem;
+        border: 0.4rem solid rgb(186, 143, 33);
+        
+    }
+    .circle>div{
+        flex-direction: row;
+            width: 4rem;
+            height: 4rem;
+        
+            
+    }
+    .circle>div>img{
+        
+        width: 4rem;
+        height: 4rem;
+       transform: scale(0.8);
+       
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .circle{
+        width: 4rem;
+        height: 4rem;
+        border: 0.4rem solid rgb(186, 143, 33);
+        
+    }
+    .circle>div{
+        flex-direction: row;
+            width: 3rem;
+            height: 3rem;
+        
+            
+    }
+    .circle>div>img{
+        
+        width: 3rem;
+        height: 3rem;
+       transform: scale(0.8);
+       
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Noto+Sans+Tamil:wght@500&family=Rubik+Vinyl&display=swap');
+
+.App {
+ 
+  overflow: hidden;
+  color: rgba(239, 225, 225, 0.734);
+  /* background-image: linear-gradient(to right bottom,rgba(22, 19, 19, 0.891) 50%,rgb(165, 153, 86)); */
+  min-height: 100vh;
+  /*  */
+  scroll-behavior: smooth;
+  background-image: url("./components/image/background/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.btn{
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(90deg,#aaa953,#cbd11c);
+  box-shadow: 0px 5px 5px 3px rgba(147, 152, 64, 0.734);
+}
+.btn:hover{
+  background-image: linear-gradient(90deg,#ffffff,#d3cec8e0);
+  color:#ee8d04 ;
+}
