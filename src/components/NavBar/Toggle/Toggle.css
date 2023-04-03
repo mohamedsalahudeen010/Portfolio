@@ -21,3 +21,19 @@
     height: 1.5rem;
     position: absolute;
 }
+
+@media only screen and (max-width:500px) {
+
+    .toggle{
+   transform: scale(0.8);
+   padding: 0.1rem ;
+}
+
+.toggle>*{
+  transform: scale(0.8);
+    
+}
+.toggle-btn{
+   transform: scale(0.8);
+}
+}
