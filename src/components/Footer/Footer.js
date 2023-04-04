@@ -13,29 +13,25 @@ function Footer() {
     <div className='footer'>
         <div className='row'>
         <img src={footer} alt=""></img>
-            <div className='col-6 footer-left'>
-            <div className='footer-avatar'>
-                    <img src={avatar} alt="avatar"></img>
-                    </div>
-            </div>
-            <div className='col-6 footer-right'>
+            
+            
             <div className='footer-content'>
         <span>Mohamed Salahudeen</span>
-    <span><Email color="black" size="2rem"/> writetosala10@gmail.com</span>
-    <span><Phone color="black" size="2rem"/> 9659339624 / 9626219624</span>
+    <span><Email color="black" size="1.5rem"/> writetosala10@gmail.com</span>
+    <span><Phone color="black" size="1.5rem"/> 9659339624 / 9626219624</span>
     <div>
         <div className='footer-icons'>
         <a href='https://www.instagram.com/sala_insta.10/' target='_blank'>
-            <Insta color="black" size="4rem"/></a> 
+            <Insta color="black" size="2rem"/></a> 
 
          <a href='https://www.linkedin.com/in/mohamed-salahudeen-j-598789265/' 
          target={'_blank'}>
-        <Linkedin color="black" size="4rem" />
+        <Linkedin color="black" size="2rem" />
                 </a> 
         <a href='https://github.com/mohamedsalahudeen010' target={'_blank'} >
-        <Github color="black" size="4rem" /> </a>
+        <Github color="black" size="2rem" /> </a>
         </div>
-            </div>
+           
         </div>
         
         
