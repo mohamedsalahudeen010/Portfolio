@@ -17,6 +17,7 @@
 .intro-name{
     display: flex;
     flex-direction: column;
+    
 }
 .intro-name>:nth-child(1){
     color: rgb(24, 236, 31);
@@ -100,6 +101,14 @@
     top: 20%;
     margin-left: 2rem;
 }
+
+.blur2{
+    position: absolute;
+    top:58%;
+    right:60%;
+  
+}
+
 @media only screen and (max-width:1220px){
     .introduction{
         display: flex;
