@@ -8,7 +8,7 @@
 .skills>span:nth-of-type(1){
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(218, 176, 61);
+    color: rgb(222, 133, 65);
     margin-left: 3rem;
 }
 .skills-main{
@@ -16,7 +16,7 @@
 }
 .logo-div{
     border: 0.5rem solid;
-    border-color:  aqua rgb(218, 176, 61)  rgb(218, 176, 61)  aqua;
+    border-color:  aqua  rgb(222, 133, 65)   rgb(222, 133, 65)  aqua;
     width: 100%;
     height: auto;
     border-radius: 4rem 0;
@@ -73,11 +73,11 @@ margin: 2rem auto;
     .skills>span:nth-of-type(1){
         font-size: 2.5rem;
         font-weight: bold;
-        color: rgb(218, 176, 61);
+        color: rgb(222, 133, 65);
     }
     .logo-div{
         border: 0.5rem solid;
-        border-color:  aqua rgb(218, 176, 61)  rgb(218, 176, 61)  aqua;
+        border-color:  aqua  rgb(222, 133, 65)   rgb(222, 133, 65)  aqua;
         width: 100%;
         height: auto;
         margin: 1rem;
@@ -111,11 +111,11 @@ margin: 2rem auto;
     .skills>span:nth-of-type(1){
         font-size: 2.5rem;
         font-weight: bold;
-        color: rgb(218, 176, 61);
+       
     }
     .logo-div{
         border: 0.5rem solid;
-        border-color:  aqua rgb(218, 176, 61)  rgb(218, 176, 61)  aqua;
+        border-color:  aqua  rgb(222, 133, 65)   rgb(222, 133, 65)  aqua;
         width: 100%;
         height: auto;
         margin: 0.8rem;
