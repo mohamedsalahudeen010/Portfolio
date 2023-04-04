@@ -1,6 +1,6 @@
 import React from 'react'
 import "./IntroPage.css"
-import avatar from "../image/avatar.JPG"
+import avatar from "../image/avatar2.jpg"
 
 import Blur from '../blur/Blur'
 import Card from '../card/Card'
