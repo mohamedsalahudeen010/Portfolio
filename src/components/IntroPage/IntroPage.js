@@ -40,6 +40,11 @@ function IntroPage() {
                     <img src={avatar} alt="avatar"></img>
                     </div>
         </div>
+        <div className='blur2'>
+        <Blur
+       clr="rgb(235, 176, 225)"
+       />
+        </div>
         
        
     </div>
