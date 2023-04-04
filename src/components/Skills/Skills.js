@@ -12,6 +12,7 @@ import nodeLogo from "../image/logo/nodeJsCircle.webp"
 import githubLogo from "../image/logo/github.svg"
 import sqlLogo from "../image/logo/sqlLogo.png"
 import FloatingDiv from '../floatingDiv/FloatingDiv'
+import mern from "../image/logo/MERN-stack.png"
 import {motion} from "framer-motion"
 function Skills() {
   const transition={duration:4,type:"spring"}
@@ -76,17 +77,17 @@ function Skills() {
           whileInView={{left:"60%"}}
           transition={transition}>
           <FloatingDiv
-            img="https://uploads-ssl.webflow.com/60cca9384ff7eaa931a24b69/60ce44133ce5aee0e6c9cac9_Mern.png"
+            img={react}
             text1="Front End"
             text2="Developer">
             </FloatingDiv>
           </motion.div>
           <motion.div className='skills-float3'
           initial={{left:"40%"}}
-          whileInView={{left:"15%"}}
+          whileInView={{left:"20%"}}
           transition={transition}>
           <FloatingDiv
-            img="https://uploads-ssl.webflow.com/60cca9384ff7eaa931a24b69/60ce44133ce5aee0e6c9cac9_Mern.png"
+            img={nodeLogo}
             text1="Back End"
             text2="Developer">
             </FloatingDiv>
@@ -94,10 +95,10 @@ function Skills() {
 
           <motion.div className='skills-float4'
           initial={{left:"40%"}}
-          whileInView={{left:"55%"}}
+          whileInView={{left:"50%"}}
           transition={transition}>
           <FloatingDiv
-            img="https://uploads-ssl.webflow.com/60cca9384ff7eaa931a24b69/60ce44133ce5aee0e6c9cac9_Mern.png"
+            img={mern}
             text1="Full Stack"
             text2="Developer">
             </FloatingDiv>
