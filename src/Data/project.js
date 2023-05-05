@@ -9,6 +9,7 @@ import p9 from "../components/image/project/Crud-React.jpg"
 import p8 from "../components/image/project/Harry-React.jpg"
 import p10 from "../components/image/project/UrlShortener-React.jpg"
 import p11 from "../components/image/project/pizzaApp.jpg"
+import p12 from "../components/image/project/Capstone.jpg"
 
  export const project=[
     {
@@ -70,5 +71,11 @@ import p11 from "../components/image/project/pizzaApp.jpg"
         netlify:"https://shimmering-mochi-ffa38e.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/WebCode-2-FrontEnd",
         backEnd:"https://github.com/mohamedsalahudeen010/webcode-2-Backend"
+    },
+    {
+        image:p12,
+        netlify:"https://tourmaline-figolla-345c51.netlify.app/",
+        frontEnd:"https://github.com/mohamedsalahudeen010/Capstone-FrontEnd",
+        backEnd:"https://github.com/mohamedsalahudeen010/Capstone-BackEnd"
     }
 ]
