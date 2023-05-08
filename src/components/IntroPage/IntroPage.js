@@ -24,7 +24,7 @@ function IntroPage() {
                     <span> To leverage my engineering background and transferable skills to build a successful career in the field of Information Technology (IT). Seeking a challenging role that enables me to apply my analytical, problem-solving, and project management skills to develop innovative solutions and contribute to the growth of the organization. I aim to continuously enhance my knowledge and skills in IT through learning, collaboration, and hands-on experience, while embracing new technologies and trends.</span>
                 </div>
                  <button className='btn intro-btn'><a style={{textDecoration:"none",color:"black"}}
-                  href='https://drive.google.com/file/d/15rfWM8jaVlbOhNgLBnIh9aWBi2Hyf0Hz/view?usp=share_link' target='_blank'>
+                  href='https://drive.google.com/file/d/15wm-e6k3W8rV98ZiRqYJAU_Oya3Unoe8/view?usp=share_link' target='_blank'>
                     Resume</a></button>
             
                 <div className='intro-icons'>
