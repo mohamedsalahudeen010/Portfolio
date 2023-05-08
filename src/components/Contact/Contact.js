@@ -58,28 +58,31 @@ function Contact() {
             <div>
             <input className='contact-name' type="text" 
             name="user_name" placeholder='Enter Your Name' 
-            onChange={(e)=>setEnterName(e.target.value)}></input>
+            onChange={(e)=>setEnterName(e.target.value,setDone(false))}></input>
             </div>
+            {nameAlert?<span className='contact-alert'>Please Enter a Name</span>:""}
             <div>
               <input type="email" name="user_email" 
               className='contact-email' placeholder='Enter Your Email'
               onChange={(e)=>setEnterEmail(e.target.value)}></input>
-              </div>              
+              </div>   
+              {emailAlert?<span className='contact-alert'>Please Enter a Mail</span>:""}           
               <div>
               <textarea name="message" rows="4" cols="30" 
               className='contact-textbox' placeholder='Enter Message' 
               onChange={(e)=>setEnterMessage(e.target.value)}
               ></textarea>
               </div>
+              {messageAlert?<span className='contact-alert'>Please Enter a Message</span>:""}
+            
               <div>
               <button className='btn contact-btn' type='submit'>Send</button>
               </div>
               <div className='contact-alert-main'>
-              {done?<span className='contact-success'>Sent Successfully</span>:""}
-              {nameAlert?<span className='contact-alert'>Please Enter a Name</span>:""}
-              {emailAlert?<span className='contact-alert'>Please Enter a Mail</span>:""}
-              {messageAlert?<span className='contact-alert'>Please Enter a Message</span>:""}
-              </div>
+              {done?<span className='contact-success'>Thank you for contacting me</span>:""}
+             
+             
+               </div>
               </form>
             </div>
              
