@@ -5,7 +5,7 @@ import avatar from "../image/avatar2.jpg"
 import Blur from '../blur/Blur'
 import Card from '../card/Card'
 
-import Insta from '@iconscout/react-unicons/icons/uil-instagram'
+
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 
@@ -29,7 +29,7 @@ function IntroPage() {
             
                 <div className='intro-icons'>
               
-                <a href='https://www.instagram.com/sala_insta.10/' target='_blank'><Insta color="orange" size="4rem"/></a> 
+               
 
                 <a href='https://www.linkedin.com/in/mohamed-salahudeen-j-598789265/' target={'_blank'}>
                   <Linkedin color="orange" size="4rem" />
