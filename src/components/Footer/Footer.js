@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import footer from "../image/background/footer.png"
 
-import Insta from '@iconscout/react-unicons/icons/uil-instagram'
+
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Email from '@iconscout/react-unicons/icons/uil-mailbox'
@@ -21,9 +21,6 @@ function Footer() {
     <span><Phone color="black" size="1.5rem"/> 9659339624 / 9626219624</span>
     <div>
         <div className='footer-icons'>
-        <a href='https://www.instagram.com/sala_insta.10/' target='_blank'>
-            <Insta color="black" size="2rem"/></a> 
-
          <a href='https://www.linkedin.com/in/mohamed-salahudeen-j-598789265/' 
          target={'_blank'}>
         <Linkedin color="black" size="2rem" />
