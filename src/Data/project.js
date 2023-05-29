@@ -61,12 +61,6 @@ import p12 from "../components/image/project/Capstone.jpg"
         backEnd:"https://github.com/mohamedsalahudeen010/Basic-Crud-BackEnd-"
     },
     {
-        image:p10,
-        netlify:"https://euphonious-puffpuff-9d27ad.netlify.app/",
-        frontEnd:"https://github.com/mohamedsalahudeen010/urlShortener-frontend",
-        backEnd:"https://github.com/mohamedsalahudeen010/urlShortener-BackEnd"
-    },
-    {
         image:p11,
         netlify:"https://shimmering-mochi-ffa38e.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/WebCode-2-FrontEnd",
