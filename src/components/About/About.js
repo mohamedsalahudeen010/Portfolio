@@ -20,15 +20,18 @@ function About() {
        </span>
 
           <span>
-          As I began exploring the field of IT, I quickly discovered that many of the skills I developed as a mechanical engineer are transferable and valuable in the IT industry. I am currently taking online courses and attending boot camps to learn new skills and stay up-to-date with the latest technology trends.
+          As I began exploring the field of IT, I quickly discovered that many of the skills I developed as a mechanical engineer are transferable and valuable in the IT industry.
+    I took online courses and attended boot camps in ZenClass by GUVI to learn new skills and stay up-to-date with the latest technology trends.
 
           </span>
           <span>
-          I am excited to use my skills and experience to make a positive impact in the field of IT. I am particularly interested in developing innovative solutions to complex problems and collaborating with others to create meaningful change.
+          I am excited to use my skills and experience to make a positive impact in the field of IT. I am particularly interested 
+    in developing innovative solutions to complex problems and collaborating with others to create meaningful change.
 
           </span>
           <span>
-          In my free time, I enjoy exploring new technologies and experimenting with coding. I am always eager to learn new things and take on new challenges. I believe that my combination of technical and problem-solving skills, as well as my passion for technology, make me a strong candidate for a career in IT."
+          In my free time, I enjoy exploring new technologies and experimenting with coding. I am always eager to learnnew things and take on new challenges. 
+    I believe that my combination of technical and problem-solving skills, as well as my passion for technology, make me a strong candidate for a career in IT."
           </span>
           <span>
             
