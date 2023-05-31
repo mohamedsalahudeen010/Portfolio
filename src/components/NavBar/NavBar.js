@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./NavBar.css"
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Toggle from './Toggle/Toggle';
 import {Link} from "react-scroll"
+import Collapse from 'react-bootstrap/Collapse';
+import Dot from "@iconscout/react-unicons/icons/uil-ellipsis-v"
 
 function NavBar() {
+   const[open,setOpen]=useState(false)
   return (
    
  <div className='nav-wrapper'>
@@ -52,34 +55,45 @@ function NavBar() {
                      </button>
                      </Link>
         </div>
-        <DropdownButton
-         className='dropDown'
-            as={ButtonGroup}
-            title={"..."}
-            id={`dropdown-variants-warning`}
-            
-          >
-            <Link spy={true} to="home" smooth={true} activeClass='activeClass'>
-              <Dropdown.Item eventKey="1" active>Home</Dropdown.Item>
+        <div className='nav-check'>
+          <input type="checkbox" id="check-land" name="" value="" style={{display:"none"}}></input>
+          <label htmlFor='check-land' className='check-label'
+          style={open?{transform:"rotate(90deg)",transition:"all 0.6s"}:
+          {transform:"rotate(0deg)",transition:"all 0.6s"}}><Dot
+          onClick={()=>setOpen(!open)} size={"2.5rem"}/></label>
+        </div>
+
+        <div className='land-dot-list'>
+        <Collapse in={open}>
+        <div id="example-collapse-text" className='view-nav-list'>
+          <ul>
+          <Link spy={true} to="home" smooth={true} activeClass='activeClass'>
+          <li><span onClick={()=>setOpen(!open)}>Home</span></li>
               </Link>
 
-            <Link spy={true} to="about" smooth={true} activeClass='activeClass'>  
-            <Dropdown.Item eventKey="2">About</Dropdown.Item>
+              <Link spy={true} to="about" smooth={true} activeClass='activeClass'>  
+              <li><span onClick={()=>setOpen(!open)}>About</span></li>
             </Link>
 
             <Link spy={true} to="skills" smooth={true} activeClass='activeClass'>
-            <Dropdown.Item eventKey="3" >Skills</Dropdown.Item>
+            <li><span onClick={()=>setOpen(!open)}>Skills</span></li>
             </Link>
 
             <Link spy={true} to="projects" smooth={true} activeClass='activeClass'>
-            <Dropdown.Item eventKey="4" >Projects</Dropdown.Item>
+            <li><span onClick={()=>setOpen(!open)}>Projects</span></li>
             </Link>
-            <Dropdown.Divider />
-
+            
             <Link spy={true} to="contacts" smooth={true} activeClass='activeClass'>
-            <Dropdown.Item eventKey="4">Contact</Dropdown.Item>
+            
+            <li><span onClick={()=>setOpen(!open)}>Contact</span></li>
             </Link>
-          </DropdownButton>
+            
+          </ul>
+        </div>
+      </Collapse>
+      </div>
+
+       
     </div>
   
    
