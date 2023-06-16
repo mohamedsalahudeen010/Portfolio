@@ -10,6 +10,7 @@ import p8 from "../components/image/project/Harry-React.jpg"
 import p10 from "../components/image/project/UrlShortener-React.jpg"
 import p11 from "../components/image/project/pizzaApp.jpg"
 import p12 from "../components/image/project/Capstone.jpg"
+import p13 from "../components/image/project/Shine.png"
 
  export const project=[
     {
@@ -61,6 +62,12 @@ import p12 from "../components/image/project/Capstone.jpg"
         backEnd:"https://github.com/mohamedsalahudeen010/Basic-Crud-BackEnd-"
     },
     {
+        image:p10,
+        netlify:"https://euphonious-puffpuff-9d27ad.netlify.app/",
+        frontEnd:"https://github.com/mohamedsalahudeen010/urlShortener-frontend",
+        backEnd:"https://github.com/mohamedsalahudeen010/urlShortener-BackEnd"
+    },
+    {
         image:p11,
         netlify:"https://shimmering-mochi-ffa38e.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/WebCode-2-FrontEnd",
@@ -71,5 +78,11 @@ import p12 from "../components/image/project/Capstone.jpg"
         netlify:"https://tourmaline-figolla-345c51.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Capstone-FrontEnd",
         backEnd:"https://github.com/mohamedsalahudeen010/Capstone-BackEnd"
+    },
+    {
+        image:p13,
+        netlify:"https://shinetraders-app.netlify.app/",
+        frontEnd:"https://github.com/mohamedsalahudeen010/shineTraders",
+        backEnd:"https://github.com/mohamedsalahudeen010/shineTraders-backEnd"
     }
 ]
