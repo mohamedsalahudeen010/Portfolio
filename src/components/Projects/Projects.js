@@ -14,7 +14,7 @@ function Projects() {
         <span>Projects</span>
         <h2  style={{color: "rgb(38, 255, 0)"}}>Swipe to View Projects</h2>
         <div className='projects-swipe-box'>
-        <Swiper spaceBetween={30}
+        <Swiper spaceBetween={10}
         slidesPerView={3}
         grabCursor={true}
         className="projects-slider">
