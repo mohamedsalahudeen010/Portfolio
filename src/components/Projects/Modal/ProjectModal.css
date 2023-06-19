@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.project-modal{
+  
+}
+
+.modal-body-left{
+  
+    padding: auto;
+    float: left;
+
+    
+    
+}
+.modal-body-left>img{
+    width: 80%;
+    height: 40vh;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gold;
+    background-color: rgb(23, 21, 79);
+    }
+
+.modal-header{
+  
+    background-color: rgb(36, 38, 49);
+    
+    color: gold;
+}
+.modal-body{
+    background-image: url("../../image/background/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.modal-footer{
+  
+    background-color: rgb(36, 38, 49);
+    
+    color: gold;
+}
+
+.modal-body-right{
+   
+   
+    
+   
+}
+.modal-description{
+
+}
+
+.modal-techs>h5{
+color: gold;
+font-weight: bold;
+}
+
+.techs>li{
+    display: inline-block;
+    color: rgb(232, 172, 21);
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
