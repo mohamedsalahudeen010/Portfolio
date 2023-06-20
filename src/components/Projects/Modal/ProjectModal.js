@@ -25,16 +25,16 @@ function ProjectModal({index,show,handleClose}) {
       <Modal.Body  className='modal-body' >
         <div className='row'>
 
-          <div className='col-md-6 modal-body-left'>
+          <div className='col-6 modal-body-left'>
         <img src= {project[index].image} alt='project-image'></img>
           </div>
 
-          <div className='col-md-6 modal-body-right'>
+          <div className='col-6 modal-body-right'>
             <div className='modal-description'>
 
             </div>
             <div className='modal-techs'>
-              <h5> Tech Stacks Used :</h5>
+              <h5> Tech Stacks Used </h5>
             {project[index].tech.map((tech)=>(
                           <div className='row techs'>
                           
@@ -50,10 +50,10 @@ function ProjectModal({index,show,handleClose}) {
         </div>
 
         <div className='row'>
-          <div className='col-md-12'>
+          <div className='col-md-12 btn-div'>
 
           <div className="btn-1">
-                    <button className="project-netlify-btn">
+                    <button className="project-netlify-modal-btn">
                       <a href={project[index].netlify} target="_blank">
                         Visit Site
                       </a>
@@ -64,14 +64,14 @@ function ProjectModal({index,show,handleClose}) {
                  
 
                  
-                    <button className="project-github-btn" style={{}}>
+                    <button className="project-github-modal-btn" style={{}}>
                       <a href={project[index].frontEnd} target="_blank">
                         FrontEnd Source
                       </a>
                     </button>
 
                     {project[index].backEnd ? (
-                      <button className="project-github-btn">
+                      <button className="project-github-modal-btn">
                         <a href={project[index].backEnd} target="_blank">
                           BackEnd Source
                         </a>
