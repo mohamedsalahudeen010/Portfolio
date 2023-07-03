@@ -1,13 +1,21 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import { Button, Collapse, Modal } from "react-bootstrap";
-import { SwiperSlide, Swiper } from "swiper/react";
+import {SwiperSlide}  from "swiper/react";
+import { Swiper } from "swiper/react";
 import "swiper/css";
 import { project } from "../../Data/project";
 import ProjectModal from "./Modal/ProjectModal";
+import { useSwiper } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import 'swiper/swiper-bundle.min.css'
+
 
 
 function Projects() {
+
+  const swiper = useSwiper();
+
   const [show, setShow] = useState(false);
   const [index,setIndex]=useState()
   const handleClose = () => setShow(false);
@@ -22,14 +30,27 @@ function Projects() {
       <h2 style={{ color: "rgb(38, 255, 0)" }}>Swipe to View Projects</h2>
       <div className="projects-swipe-box">
         <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+
           spaceBetween={10}
           slidesPerView={3}
           grabCursor={true}
+          
+
+          navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+
+          
+
+          onReachEnd={() => {}}
+
           className="projects-slider"
+        
         >
           {project &&
             project.map((proj, index) => (
-              <div key={index}>
+              
               <SwiperSlide key={index}>
                 <div className="project-card">
                   <img
@@ -49,7 +70,7 @@ function Projects() {
                       className="project-netlify-btn"
                       onClick={()=>handleShow(index)}
                     >
-                     More
+                      More
                     </button>
                   </div>
 
@@ -69,8 +90,9 @@ function Projects() {
                     ) : (
                       ""
                     )}
+                    
                   </div>
-                
+               
 
                 
                 </div>
@@ -84,10 +106,12 @@ function Projects() {
                 </SwiperSlide>
                  
                  
-                   </div>
+                  
 
 
             ))}
+          
+               
         </Swiper>
 
 {index>=0 || index==0 && index>=0 || index==0?<div style={index?{display:"block"}:{display:"none"}}>
