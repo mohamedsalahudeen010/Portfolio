@@ -28,16 +28,17 @@
 .projects-slider{
     margin-top: 1rem;
     
-    width: 70%;  
-    background-color: rgba(22, 22, 22, 0.26);
+    width: 80%;  
+    background-color: rgba(244, 235, 235, 0.604);
     margin-bottom: 3rem;
+    padding: 0 4rem 0 2rem;
     border-radius: 2rem;
 }
 
 
 .project-card{
     width: 80%;
-    margin-left: 2.2rem;
+    margin-left: 2.3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 0.2rem solid;
@@ -54,7 +55,7 @@
 }
 .project-card>img{
     width:95%;
-    height: 20rem;
+    height: 18rem;
     
     border-radius: 1rem;
    margin: 0.5rem;
@@ -114,6 +115,10 @@ border: 0.1rem solid rgb(252, 248, 248);
     margin: 0.3rem;
     text-align: center;
 
+}
+.swiper-btn-scroll{
+    background-color: aquamarine;
+    text-align: center;
 }
 
 @media only screen and (max-width:1200px) {
