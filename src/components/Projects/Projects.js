@@ -49,7 +49,7 @@ function Projects() {
                       className="project-netlify-btn"
                       onClick={()=>handleShow(index)}
                     >
-                      view
+                     More
                     </button>
                   </div>
 
