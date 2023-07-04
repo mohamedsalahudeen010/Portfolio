@@ -30,9 +30,6 @@ function ProjectModal({index,show,handleClose}) {
           </div>
 
           <div className='col-6 modal-body-right'>
-            <div className='modal-description'>
-
-            </div>
             <div className='modal-techs'>
               <h5> Tech Stacks Used </h5>
             {project[index].tech.map((tech)=>(
@@ -48,8 +45,14 @@ function ProjectModal({index,show,handleClose}) {
             </div>
           </div>
         </div>
+      
 
         <div className='row'>
+
+        <div className='modal-description'>
+          <h5>Description :</h5>
+{project[index].description}
+            </div>
           <div className='col-md-12 btn-div'>
 
           <div className="btn-1">
