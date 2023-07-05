@@ -87,7 +87,7 @@ font-size: 1.5rem;
 
 .modal-description{
     color: silver;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 1rem;
 }
 
@@ -166,7 +166,7 @@ font-size: 1.5rem;
         }
         .modal-description{
             
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             margin: 1rem;
         }
         .modal-header-title{
@@ -219,7 +219,7 @@ font-size: 1.5rem;
         }
         .modal-description{
         
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             margin: 1rem;
         }
         .modal-header-title{
@@ -269,7 +269,7 @@ font-size: 1.5rem;
         }
         .modal-description{
           
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             margin: 1rem 0.5rem;
         }
         .modal-header-title{
@@ -346,7 +346,7 @@ font-size: 1.5rem;
         }
         .modal-description{
           
-            font-size: 0.5rem;
+            font-size: 0.45rem;
             margin: 1rem 0.5rem;
         }
         .modal-header-title{
@@ -421,7 +421,7 @@ font-size: 1.5rem;
         }
         .modal-description{
           
-            font-size: 0.5rem;
+            font-size: 0.45rem;
             margin: 0.5rem 0rem;
         }
         .modal-header-title{
