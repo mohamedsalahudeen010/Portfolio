@@ -22,7 +22,7 @@ import js from "../components/image/logo/js-logo.webp"
         frontEnd:"https://github.com/mohamedsalahudeen010/shineTraders",
         backEnd:"https://github.com/mohamedsalahudeen010/shineTraders-backEnd",
         tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose","Redux"],
-        description:"This is a MERN Full stack Application for Paint Shop, This application has products for users and stock updation for admin, It includes CRUD operations,"
+        description:"This Application is a MERN Full stack Application for Paint Shop, This application has products for users and stock updation for admin, It includes CRUD operations, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
     },
     
     {
@@ -32,7 +32,7 @@ import js from "../components/image/logo/js-logo.webp"
         frontEnd:"https://github.com/mohamedsalahudeen010/Capstone-FrontEnd",
         backEnd:"https://github.com/mohamedsalahudeen010/Capstone-BackEnd",
         tech:["Javascript","HTML","CSS","Boostrap","React","Formik","Context API","NodeJs","Express","MongoDB","Mongoose"],
-        description:"This is a Gold Rate Convertor MERN Full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Gold Rate Convertor MERN Full stack Application, assigned as a Capstone project, Welcome to the Gold Rate Convertor Application, a Web page designed to help you determine Gold prices using various weights, karats (e.g., 24K, 22K, 21K, 18K etc.), and currencies from around the world, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
     },
 
     {
@@ -42,7 +42,7 @@ import js from "../components/image/logo/js-logo.webp"
         frontEnd:"https://github.com/mohamedsalahudeen010/WebCode-2-FrontEnd",
         backEnd:"https://github.com/mohamedsalahudeen010/webcode-2-Backend",
         tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose","Redux"],
-        description:"This is a Pizza ordering MERN Full stack Application, assigned as a Webcode project."
+        description:"This Application is a Pizza ordering MERN Full stack Application, assigned as a Webcode project, this contains user pizza ordering Interface and stock updation for Admin,Explore the menu for your favourite veg & non-veg pizzas and you can add toppings, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
     },
    
     {
@@ -52,7 +52,7 @@ import js from "../components/image/logo/js-logo.webp"
         frontEnd:"https://github.com/mohamedsalahudeen010/Crud-Basic-app",
         backEnd:"https://github.com/mohamedsalahudeen010/Basic-Crud-BackEnd-",
         tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB"],
-        description:"This is a MERN Full stack Application, This Application has CRUD operations to maintain  Students data of School."
+        description:"This Application is a MERN Full stack Application, This Application has CRUD operations to maintain Students data of School, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
     },
     
     {
@@ -61,7 +61,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://relaxed-twilight-d309ee.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Crud-React--Formik",
         tech:["Javascript","HTML","CSS","Boostrap","React","Formik"],
-        description:"This is a React Front End application, This Application has CRUD operations to maintain Teachers and Students data of Hogwarts School. "
+        description:"This Application is a React Front End application, This Application has CRUD operations to maintain Teachers and Students data of Hogwarts School."
     },
     
     {
@@ -70,7 +70,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://cool-sunburst-d44a0e.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Sports-Cart-React-",
         tech:["Javascript","HTML","CSS","Boostrap","React"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a React Front End application, This Application contains product card and add to cart User Interface."
     },
   
     {
@@ -79,7 +79,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://eclectic-salamander-afb833.netlify.app",
         frontEnd:"https://github.com/mohamedsalahudeen010/Webcode---B42",
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Front End application built by using DOM, Assigned as a WebCode Project, This Application contains User Interface for Makeup store. "
     },
     
     {
@@ -88,7 +88,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://fluffy-sunshine-ceb9c8.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Harry-Potter",
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Students and teachers Data of Hogwarts school."
     },
    
     {
@@ -97,7 +97,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://lighthearted-cucurucho-100ecf.netlify.app",
         frontEnd:"https://github.com/mohamedsalahudeen010/Art-Institute-of-Chicago",
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Art Institute of Chicaco Museum."
     },
     {
         title:"Thirukkural Application",
@@ -105,7 +105,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://venerable-gaufre-16bbbb.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Thirukkural",
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Art Thirukkural, designed for Study purpose."
     },
     
     {
@@ -114,7 +114,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://hilarious-valkyrie-083d59.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Fetch-task-card-creation-",
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Front End application built by using DOM,This Application contains cards of various Countries of world, card includes capital, region, geographical location, claimate of particular country."
     },
     {
         title:"Brewery Application",
@@ -122,6 +122,6 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://unique-griffin-0aa5f4.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/WebCode1",
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This is a Gold Rate Convertor MERN full stack Application, assigned as a Capstone project, This application includes CRUD operations, Bcrypt Authorization, JWT Authentication, Bootstrap, ContextApi used for State Management, Formik used for Form control."
+        description:"This Application is a Front End application built by using DOM,This Application contains datas of Brewery companies."
     },
 ]
