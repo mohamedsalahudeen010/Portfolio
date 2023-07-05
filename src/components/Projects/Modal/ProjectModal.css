@@ -323,7 +323,7 @@ font-size: 1.5rem;
         height: 27vh;
         padding: 0.4rem;
         border-radius: 0.8rem;
-        margin-left: -1.5rem;
+        margin-left: 0rem;
         }
     
     .modal-techs>h5{
@@ -398,7 +398,7 @@ font-size: 1.5rem;
         height: 25vh;
         padding: 0.4rem;
         border-radius: 0.8rem;
-        margin-left: -1.1rem;
+        margin-left: 0rem;
         }
     
     .modal-techs>h5{
