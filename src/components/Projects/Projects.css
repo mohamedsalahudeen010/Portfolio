@@ -78,6 +78,12 @@ border: 0.1rem solid rgb(252, 248, 248);
     font-weight: bold;
 }
 
+.project-netlify-btn:hover{
+  
+    background-color:rgb(17, 85, 44);
+    
+  
+}
 
 .project-netlify-btn>a{
     text-decoration: none;
@@ -95,6 +101,13 @@ border: 0.1rem solid rgb(252, 248, 248);
     font-size: 0.6rem;
     margin: 2%;
     font-weight: bold;
+}
+
+.project-github-btn:hover{
+
+    background-color: rgba(87, 89, 89, 0.819);
+    color: whitesmoke;
+    
 }
 
 .project-github-btn>a{
