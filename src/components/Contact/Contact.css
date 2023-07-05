@@ -34,7 +34,7 @@
     
 }
 .contact-name{
-    width: 50%;
+    width: 70%;
     height: 3rem;
     border: 5px solid;
     padding: 0.5rem;
@@ -47,7 +47,7 @@
 }
 
 .contact-email{
-    width: 50%;
+    width: 70%;
     height: 3rem;
     border: 5px solid;
     padding: 0.8rem;
@@ -59,7 +59,7 @@
     margin-top: 2rem;
 }
 .contact-textbox{
-    width: 50%;
+    width: 70%;
     height: 3rem !important;
     border: 5px solid;
     padding: 0.8rem;
@@ -133,7 +133,7 @@
         
     }
     .contact-name{
-        width: 50%;
+        width:80%;
         height: 3rem;
         border: 5px solid;
         padding: 0.5rem;
@@ -146,7 +146,7 @@
     }
     
     .contact-email{
-        width: 50%;
+        width: 80%;
         height: 3rem;
         border: 5px solid;
         padding: 0.8rem;
@@ -158,7 +158,7 @@
         margin-top: 2rem;
     }
     .contact-textbox{
-        width: 50%;
+        width: 80%;
         height: 3rem !important;
         border: 5px solid;
         padding: 0.8rem;
@@ -234,7 +234,7 @@
         
     }
     .contact-name{
-        width: 50%;
+        width: 80%;
         height: 3rem;
         border: 5px solid;
         padding: 0.5rem;
@@ -247,7 +247,7 @@
     }
     
     .contact-email{
-        width: 50%;
+        width: 80%;
         height: 3rem;
         border: 5px solid;
         padding: 0.8rem;
@@ -259,7 +259,7 @@
         margin-top: 2rem;
     }
     .contact-textbox{
-        width: 50%;
+        width: 80%;
         height: 3rem !important;
         border: 5px solid;
         padding: 0.8rem;
