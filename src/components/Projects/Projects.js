@@ -114,7 +114,7 @@ function Projects() {
                
         </Swiper>
 
-{index>=0 || index==0 && index>=0 || index==0?<div style={index?{display:"block"}:{display:"none"}}>
+{(index>=0 || index===0) && (index>=0 || index===0)?<div style={index?{display:"block"}:{display:"none"}}>
         <ProjectModal
              index={index}
              show={show}
