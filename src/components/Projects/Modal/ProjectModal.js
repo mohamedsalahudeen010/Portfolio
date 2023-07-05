@@ -18,7 +18,7 @@ function ProjectModal({index,show,handleClose}) {
     >
       <Modal.Header closeButton
       className='modal-header'>
-        <Modal.Title id="contained-modal-title-vcenter">
+        <Modal.Title id="contained-modal-title-vcenter"  className='modal-header-title'>
           {project[index].title}
         </Modal.Title>
       </Modal.Header>
@@ -88,52 +88,11 @@ function ProjectModal({index,show,handleClose}) {
       </Modal.Body>
       <Modal.Footer
       className='modal-footer'>
-        <Button onClick={handleClose}>Close</Button>
+        <Button onClick={handleClose} className='modal-footer-btn'>Close</Button>
       </Modal.Footer>
     </Modal>
           
-          {/* <Modal show={show} onHide={handleClose} key={index}
-          size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-         >
-                  <Modal.Header closeButton>
-                    <Modal.Title>{project[index].title}</Modal.Title>
-                  </Modal.Header>
-                  <Modal.Body>
-                    <div className="flex-container modal-main">
-                      <div className="w-100 ">
-                        <img
-                          className="image-fluid img-model"
-                          style={{ height: "25vh", width: "65%" ,marginLeft:"10%"}}
-                          src={project[index].image}
-                          alt="pizza"
-                        ></img>
-                      </div>
-                      <div className='m-2'>
-                        <b>TechStacks Used</b> : {project[index].tech.map((tech)=>(
-                          <div className='row'>
-                            
-                              <li style={{display:"inline"}}>
-                                {tech}
-                              </li>
-                             
-
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </Modal.Body>
-                  <p style={{ width: "90%", marginLeft: "0.5rem" }}>
-                    {project.description}
-                  </p>
-                  <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                      Close
-                    </Button>
-                  </Modal.Footer>
-                </Modal> */}
-            
+          
      </div>
   )
 }
