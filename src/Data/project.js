@@ -11,10 +11,21 @@ import p10 from "../components/image/project/UrlShortener-React.jpg"
 import p11 from "../components/image/project/pizzaApp.jpg"
 import p12 from "../components/image/project/Capstone.jpg"
 import p13 from "../components/image/project/Shine.png"
-
+import p14 from "../components/image/project/AkjStores.png"
 import js from "../components/image/logo/js-logo.webp"
 
+
+
  export const project=[
+    {
+        title:"AKJ Stores - E-com ( FullStack )",
+        image:p14,
+        netlify:"https://akjstores.netlify.app/",
+        frontEnd:"https://github.com/mohamedsalahudeen010/AKJ-Stores",
+        backEnd:"https://github.com/mohamedsalahudeen010/AKJBackEnd",
+        tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose","Redux"],
+        description:"This Application is a MERN Full stack Application for E commerce App, This application has products for users and stock updation for admin, It includes CRUD operations, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
+    },
     {
         title:"Paint Shop Application ( FullStack )",
         image:p13,
@@ -116,12 +127,5 @@ import js from "../components/image/logo/js-logo.webp"
         tech:["Javascript","HTML","CSS","DOM","Boostrap"],
         description:"This Application is a Front End application built by using DOM,This Application contains cards of various Countries of world, card includes capital, region, geographical location, claimate of particular country."
     },
-    {
-        title:"Brewery Application",
-        image:p1,
-        netlify:"https://unique-griffin-0aa5f4.netlify.app/",
-        frontEnd:"https://github.com/mohamedsalahudeen010/WebCode1",
-        tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This Application is a Front End application built by using DOM,This Application contains datas of Brewery companies."
-    },
+   
 ]
