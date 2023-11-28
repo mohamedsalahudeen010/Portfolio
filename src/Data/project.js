@@ -23,7 +23,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://akjstores.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/AKJ-Stores",
         backEnd:"https://github.com/mohamedsalahudeen010/AKJBackEnd",
-        tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose","Redux"],
+        tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose","Context API","Redux"],
         description:"This Application is a MERN Full stack Application for E commerce App, This application has products for users and stock updation for admin, It includes CRUD operations, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
     },
     {
@@ -32,7 +32,7 @@ import js from "../components/image/logo/js-logo.webp"
         netlify:"https://shinetraders-app.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/shineTraders",
         backEnd:"https://github.com/mohamedsalahudeen010/shineTraders-backEnd",
-        tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose","Redux"],
+        tech:["Javascript","HTML","CSS","Boostrap","React","Formik","NodeJs","Express","MongoDB","Mongoose",,"Context API","Redux"],
         description:"This Application is a MERN Full stack Application for Paint Shop, This application has products for users and stock updation for admin, It includes CRUD operations, includes Bcrypt Authentication and Json Web Token (JWT) Authorization."
     },
     
