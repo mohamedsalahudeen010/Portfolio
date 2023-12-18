@@ -51,11 +51,16 @@
     padding: 0rem;
     background-image: linear-gradient(135deg,rgb(37, 32, 108),rgb(22, 96, 104),rgb(186, 172, 89));
 }
+.card-title2{
+    color: goldenrod;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
 .project-card>img{
     width:90%;
     height: 12rem;
     border-radius: 1rem;
-    margin: 0.5rem;
+    margin: 0.1rem;
     box-shadow: 0.2rem 0.2rem 0.2rem black;
 border: 0.1rem solid rgb(252, 248, 248);
 }
@@ -170,6 +175,10 @@ border: 0.1rem solid rgb(252, 248, 248);
         margin-bottom: 2rem;
         padding: 0.2rem;
     }
+    .card-title2{
+        margin: 0.35rem;
+        font-size: 0.7rem;
+    }
     .project-card>img{
         width:100%;
         height: 18rem;
@@ -178,14 +187,14 @@ border: 0.1rem solid rgb(252, 248, 248);
     
     
     .project-netlify-btn{
-        width: 50%;
+        width: 80%;
         margin-top: 0.5rem;
         padding: 0.3rem 0;
     }
    
     
     .project-github-btn{
-        width: 50%;
+        width: 80%;
         margin-top: 0.5rem;
         padding: 0.3rem 0;
         border-radius: 0.3rem;
@@ -197,7 +206,7 @@ border: 0.1rem solid rgb(252, 248, 248);
     
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1000px) {
  
     
     .projects{
@@ -231,7 +240,10 @@ border: 0.1rem solid rgb(252, 248, 248);
         border-radius: 2rem;
     }
     
-    
+    .card-title2{
+        margin: 0.25rem;
+        font-size: 0.6rem;
+    }  
     .project-card{
         width: 90%;
         margin-left:0.18rem;
@@ -248,14 +260,14 @@ border: 0.1rem solid rgb(252, 248, 248);
     
     
     .project-netlify-btn{
-        width: 50%;
+        width: 80%;
         margin-top: 0.5rem;
         padding: 0.3rem 0;
         border-radius: 0.3rem;
     }
    
     .project-github-btn{
-        width: 50%;
+        width: 80%;
         margin-top: 0.2rem;
         padding: 0.2rem 0;
         border-radius: 0.3rem;
@@ -267,9 +279,15 @@ border: 0.1rem solid rgb(252, 248, 248);
     
 }
 
+@media only screen and (max-width:850px) {
+    .card-title2{
+        margin: 0.25rem;
+        font-size: 0.5rem;
+    }  
+}
 
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:768px) {
  
     
     .projects{
@@ -311,13 +329,17 @@ border: 0.1rem solid rgb(252, 248, 248);
         margin-bottom: 2rem;
         border-radius: 1rem;
         padding: 0.5rem;
+        height: auto;
     }
     .project-card>img{
         width:100%;
         height: 18rem;
     
     }
-    
+    .card-title2{
+        margin: 0.2rem;
+        font-size: 1rem;
+    }  
     
     .project-netlify-btn{
         width: 70%;
