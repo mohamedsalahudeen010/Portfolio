@@ -18,7 +18,8 @@ import js from "../components/image/logo/js-logo.webp"
 
  export const project=[
     {
-        title:"AKJ Stores - E-com ( FullStack )",
+        title:"E-Commerce Application ( FullStack )",
+        title2:"E-Commerce App",
         image:p14,
         netlify:"https://akjstores.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/AKJ-Stores",
@@ -28,6 +29,7 @@ import js from "../components/image/logo/js-logo.webp"
     },
     {
         title:"Paint Shop Application ( FullStack )",
+        title2:"Paint Shop App",
         image:p13,
         netlify:"https://shinetraders-app.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/shineTraders",
@@ -38,6 +40,7 @@ import js from "../components/image/logo/js-logo.webp"
     
     {
         title:"Gold Rate Convertor Application ( FullStack )",
+        title2:"E-Commerce App",
         image:p12,
         netlify:"https://tourmaline-figolla-345c51.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Capstone-FrontEnd",
@@ -48,6 +51,7 @@ import js from "../components/image/logo/js-logo.webp"
 
     {
         title:"Pizza Ordering Application ( FullStack )",
+        title2:"Pizza Shop App",
         image:p11,
         netlify:"https://shimmering-mochi-ffa38e.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/WebCode-2-FrontEnd",
@@ -58,6 +62,7 @@ import js from "../components/image/logo/js-logo.webp"
    
     {
         title:"Students Crud Application ( FullStack )",
+        title2:"Students Crud App",
         image:p9,
         netlify:"https://roaring-kheer-e775dc.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Crud-Basic-app",
@@ -68,6 +73,7 @@ import js from "../components/image/logo/js-logo.webp"
     
     {
         title:"Harry Potter School Crud Application",
+        title2:"Harry Potter App",
         image:p8,
         netlify:"https://relaxed-twilight-d309ee.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Crud-React--Formik",
@@ -77,6 +83,7 @@ import js from "../components/image/logo/js-logo.webp"
     
     {
         title:"Product Cart Application",
+        title2:"Product Cart App",
         image:p7,
         netlify:"https://cool-sunburst-d44a0e.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Sports-Cart-React-",
@@ -86,6 +93,7 @@ import js from "../components/image/logo/js-logo.webp"
   
     {
         title:"MakeUp Shop Application",
+        title2:"MakeUp Shop App",
         image:p6,
         netlify:"https://eclectic-salamander-afb833.netlify.app",
         frontEnd:"https://github.com/mohamedsalahudeen010/Webcode---B42",
@@ -95,6 +103,7 @@ import js from "../components/image/logo/js-logo.webp"
     
     {
         title:"Harry Potter Application",
+        title2:"Harry Potter App",
         image:p5,
         netlify:"https://fluffy-sunshine-ceb9c8.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Harry-Potter",
@@ -104,6 +113,7 @@ import js from "../components/image/logo/js-logo.webp"
    
     {
         title:"Art Institute Application",
+        title2:"Art Institute App",
         image:p4,
         netlify:"https://lighthearted-cucurucho-100ecf.netlify.app",
         frontEnd:"https://github.com/mohamedsalahudeen010/Art-Institute-of-Chicago",
@@ -112,6 +122,7 @@ import js from "../components/image/logo/js-logo.webp"
     },
     {
         title:"Thirukkural Application",
+        title2:"Thirukkural App",
         image:p3,
         netlify:"https://venerable-gaufre-16bbbb.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Thirukkural",
@@ -121,6 +132,7 @@ import js from "../components/image/logo/js-logo.webp"
     
     {
         title:"Country Cards Application",
+        title2:"Country Cards App",
         image:p2,
         netlify:"https://hilarious-valkyrie-083d59.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Fetch-task-card-creation-",
