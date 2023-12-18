@@ -129,6 +129,7 @@ function Projects() {
               <div className="col-md-2">
               <SwiperSlide key={index}>
                 <div className="project-card">
+                  <h6 className="card-title2">{proj.title2}</h6>
                   <img
                     className="slide-image"
                     src={proj.image}
