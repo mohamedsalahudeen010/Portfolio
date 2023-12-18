@@ -5,7 +5,7 @@ import avatar from "../image/avatar2.jpg"
 import Blur from '../blur/Blur'
 import Card from '../card/Card'
 
-
+import Insta from '@iconscout/react-unicons/icons/uil-instagram'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 
@@ -23,14 +23,12 @@ function IntroPage() {
                     <span> Mohamed Salahudeen</span>
                     <span> To leverage my engineering background and transferable skills to build a successful career in the field of Information Technology (IT). Seeking a challenging role that enables me to apply my analytical, problem-solving, and project management skills to develop innovative solutions and contribute to the growth of the organization. I aim to continuously enhance my knowledge and skills in IT through learning, collaboration, and hands-on experience, while embracing new technologies and trends.</span>
                 </div>
-                 <a style={{textDecoration:"none",color:"black"}}
-                  href='https://drive.google.com/file/d/1rn6h9_QDPPXF_p0WO3IeI49hzv_O9Cs8/view?usp=sharing' target='_blank'>
-                    <button className='btn intro-btn'>
-                    Resume</button>
-            </a>
+                <button className='btn intro-btn'><a style={{textDecoration:"none",color:"black"}} 
+                href='https://drive.google.com/file/d/1jP8ANM9pGFmQr6TF6au6LJDSDmpzB_zM/view?usp=sharing' target='_blank'>
+                  Resume</a></button>
                 <div className='intro-icons'>
               
-               
+                <a href='https://www.instagram.com/sala_insta.10/' target='_blank'><Insta color="orange" size="4rem"/></a> 
 
                 <a href='https://www.linkedin.com/in/mohamed-salahudeen-j-598789265/' target={'_blank'}>
                   <Linkedin color="orange" size="4rem" />
