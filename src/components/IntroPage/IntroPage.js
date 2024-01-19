@@ -27,9 +27,6 @@ function IntroPage() {
                 href='https://drive.google.com/file/d/17E5dVD9FG8d8OZmBbtF04olOwFAo4jun/view?usp=drive_link' target='_blank'>
                   Resume</a></button>
                 <div className='intro-icons'>
-              
-                <a href='https://www.instagram.com/sala_insta.10/' target='_blank'><Insta color="orange" size="4rem"/></a> 
-
                 <a href='https://www.linkedin.com/in/mohamed-salahudeen-j-598789265/' target={'_blank'}>
                   <Linkedin color="orange" size="4rem" />
                 </a> 
