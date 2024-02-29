@@ -24,7 +24,7 @@ function IntroPage() {
                     <span> To leverage my engineering background and transferable skills to build a successful career in the field of Information Technology (IT). Seeking a challenging role that enables me to apply my analytical, problem-solving, and project management skills to develop innovative solutions and contribute to the growth of the organization. I aim to continuously enhance my knowledge and skills in IT through learning, collaboration, and hands-on experience, while embracing new technologies and trends.</span>
                 </div>
                 <button className='btn intro-btn'><a style={{textDecoration:"none",color:"black"}} 
-                href='https://drive.google.com/file/d/1p1X0D9J5aBd2NgXlaHp7qvYO7EPpvjwC/view?usp=drive_link' target='_blank'>
+                href='https://drive.google.com/file/d/1X7dvH75njLT34t8gDOI9x2RV3kbFUhX5/view' target='_blank'>
                   Resume</a></button>
                 <div className='intro-icons'>
                 <a href='https://www.linkedin.com/in/mohamed-salahudeen-j-598789265/' target={'_blank'}>
