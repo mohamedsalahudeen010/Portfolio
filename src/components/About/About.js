@@ -33,6 +33,8 @@ function About() {
      <span>
            This Program has equipped me with proficiency in both front-end and back-end technologies, 
       During this Program, I accomplished Six capstone Full stack projects.
+    </span>
+     <span>
       I Have Completed Three months Internship In GUVI Geeks Network As a Tech Support Intern.
     </span>
             </div>
