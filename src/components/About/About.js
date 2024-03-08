@@ -15,27 +15,26 @@ function About() {
             <div className=' col-xs-12 col-md-6 about-left' >
             <span>About Me</span>
             <div>Hi, I am Mohamed Salahudeen,</div>
-          <span>
-          I Graduated as a Mechanical engineer in 2017, I have five plus years of experience in Non IT domain, Throughout my career, I have developed a strong Foundation in Problem Solving, Analytical Thinking and Project Management and successfully executing complex projects within deadline
-
-I drawn into the dynamic and ever evolving nature of IT and future lies in it,
-As I began exploring the field of IT, I quickly discovered that many of the skills I developed as a mechanical engineer are transferable and valuable in the IT industry.
-
-I have embarked on a journey to expand my skill set into the IT domain, so I took proactive steps and completed Full Stack Development Program in GUVI Geeks Which is IIT Madras Incubated Company with 100% task completion.
-
-This Program has equipped me with proficiency in both front-end and back-end technologies, During this Program, I accomplished Six capstone Full stack projects.
-
-I Have Completed Three months Internship In GUVI Geeks Network As a Tech Support Intern.
-
-       </span>
-
-          <span>
-          As I began exploring the field of IT, I quickly discovered that many of the skills I developed as a mechanical engineer 
-          are transferable and valuable in the IT industry.
-          I took online Full stack developer program in Zen Class by GUVI and I completed successfully . 
-       
-
-          </span>
+    <span>
+          I Graduated as a Mechanical engineer in 2017, I have five plus years of experience in Non IT domain, 
+    Throughout my career, I have developed a strong Foundation in Problem Solving,
+    Analytical Thinking and Project Management and successfully executing complex projects within deadline
+    </span>
+    <span>
+          I drawn into the dynamic and ever evolving nature of IT and future lies in it,
+      As I began exploring the field of IT, 
+      I quickly discovered that many of the skills I developed as a mechanical engineer are transferable and valuable in the IT industry.
+     </span>
+     <span>
+           I have embarked on a journey to expand my skill set into the IT domain, 
+      so I took proactive steps and completed Full Stack Development Program in 
+      GUVI Geeks Which is IIT Madras Incubated Company with 100% task completion.
+     </span>
+     <span>
+           This Program has equipped me with proficiency in both front-end and back-end technologies, 
+      During this Program, I accomplished Six capstone Full stack projects.
+      I Have Completed Three months Internship In GUVI Geeks Network As a Tech Support Intern.
+    </span>
             </div>
             <div className='col-xs-12 col-md-6 about-right'   style={{width:"50%"}}>
                 <motion.div 
