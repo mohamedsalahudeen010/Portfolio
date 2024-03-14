@@ -103,46 +103,46 @@ import js from "../components/image/logo/js-logo.webp"
         frontEnd:"https://github.com/mohamedsalahudeen010/Crud-React--Formik",
         tech:["Javascript","HTML","CSS","Boostrap","React","Formik-Yup"],
         description:"This Application is a React Front End application, This Application has CRUD operations to maintain Teachers and Students data of Hogwarts School."
-    },
-    
-    {
-        title:"Product Cart Application",
-        title2:"Product Cart App",
-        image:p7,
-        netlify:"https://cool-sunburst-d44a0e.netlify.app/",
-        frontEnd:"https://github.com/mohamedsalahudeen010/Sports-Cart-React-",
-        tech:["Javascript","HTML","CSS","Boostrap","React"],
-        description:"This Application is a React Front End application, This Application contains product card and add to cart User Interface."
-    },
-  
-    {
-        title:"MakeUp Shop Application",
-        title2:"MakeUp Shop App",
-        image:p6,
-        netlify:"https://eclectic-salamander-afb833.netlify.app",
-        frontEnd:"https://github.com/mohamedsalahudeen010/Webcode---B42",
-        tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This Application is a Front End application built by using DOM, Assigned as a WebCode Project, This Application contains User Interface for Makeup store. "
-    },
-    
-    {
-        title:"Harry Potter Application",
-        title2:"Harry Potter App",
-        image:p5,
-        netlify:"https://fluffy-sunshine-ceb9c8.netlify.app/",
-        frontEnd:"https://github.com/mohamedsalahudeen010/Harry-Potter",
-        tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Students and teachers Data of Hogwarts school."
-    },
-   
-    {
-        title:"Art Institute Application",
-        title2:"Art Institute App",
-        image:p4,
-        netlify:"https://lighthearted-cucurucho-100ecf.netlify.app",
-        frontEnd:"https://github.com/mohamedsalahudeen010/Art-Institute-of-Chicago",
-        tech:["Javascript","HTML","CSS","DOM","Boostrap"],
-        description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Art Institute of Chicaco Museum."
     }
+    
+    // {
+    //     title:"Product Cart Application",
+    //     title2:"Product Cart App",
+    //     image:p7,
+    //     netlify:"https://cool-sunburst-d44a0e.netlify.app/",
+    //     frontEnd:"https://github.com/mohamedsalahudeen010/Sports-Cart-React-",
+    //     tech:["Javascript","HTML","CSS","Boostrap","React"],
+    //     description:"This Application is a React Front End application, This Application contains product card and add to cart User Interface."
+    // },
+  
+    // {
+    //     title:"MakeUp Shop Application",
+    //     title2:"MakeUp Shop App",
+    //     image:p6,
+    //     netlify:"https://eclectic-salamander-afb833.netlify.app",
+    //     frontEnd:"https://github.com/mohamedsalahudeen010/Webcode---B42",
+    //     tech:["Javascript","HTML","CSS","DOM","Boostrap"],
+    //     description:"This Application is a Front End application built by using DOM, Assigned as a WebCode Project, This Application contains User Interface for Makeup store. "
+    // },
+    
+    // {
+    //     title:"Harry Potter Application",
+    //     title2:"Harry Potter App",
+    //     image:p5,
+    //     netlify:"https://fluffy-sunshine-ceb9c8.netlify.app/",
+    //     frontEnd:"https://github.com/mohamedsalahudeen010/Harry-Potter",
+    //     tech:["Javascript","HTML","CSS","DOM","Boostrap"],
+    //     description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Students and teachers Data of Hogwarts school."
+    // },
+   
+    // {
+    //     title:"Art Institute Application",
+    //     title2:"Art Institute App",
+    //     image:p4,
+    //     netlify:"https://lighthearted-cucurucho-100ecf.netlify.app",
+    //     frontEnd:"https://github.com/mohamedsalahudeen010/Art-Institute-of-Chicago",
+    //     tech:["Javascript","HTML","CSS","DOM","Boostrap"],
+    //     description:"This Application is a Front End application built by using DOM,This Application contains User Interface for Art Institute of Chicaco Museum."
+    // }
    
 ]
