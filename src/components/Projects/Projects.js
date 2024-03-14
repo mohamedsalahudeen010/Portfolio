@@ -36,97 +36,12 @@ function Projects() {
       <span>Projects</span>
       {/* <h2 style={{ color: "rgb(38, 255, 0)" }}>Swipe to View Projects</h2> */}
       <div className="projects-swipe-box">
-        {/* <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-
-          spaceBetween={10}
-
-          slidesPerView={3}
-         
-          grabCursor={true}
-          
-
-          navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-
-          
-
-          onReachEnd={() => {}}
-
-          className="projects-slider"
         
-        >
-          {project &&
-            project.map((proj, index) => (
-              
-              <SwiperSlide key={index}>
-                <div className="project-card">
-                  <img
-                    className="slide-image"
-                    src={proj.image}
-                    alt="projects"
-                  ></img>
-
-                  <div className="btn-1">
-                    <button className="project-netlify-btn">
-                      <a href={proj.netlify} target="_blank">
-                        Visit Site
-                      </a>
-                    </button>
-
-                    <button
-                      className="project-netlify-btn"
-                      onClick={()=>handleShow(index)}
-                    >
-                      More
-                    </button>
-                  </div>
-
-                  <div className="btn-2">
-                    <button className="project-github-btn" style={{}}>
-                      <a href={proj.frontEnd} target="_blank">
-                        FrontEnd Source
-                      </a>
-                    </button>
-
-                    {proj.backEnd ? (
-                      <button className="project-github-btn">
-                        <a href={proj.backEnd} target="_blank">
-                          BackEnd Source
-                        </a>
-                      </button>
-                    ) : (
-                      ""
-                    )}
-                    
-                  </div>
-               
-
-                
-                </div>
-
-              
-               
-            
-           
-
-              
-                </SwiperSlide>
-                 
-                 
-                  
-
-
-            ))}
-          
-               
-        </Swiper> */}
 <div className="row">
 
 {project &&
             project.map((proj, index) => (
-              <div className="col-md-2">
+              <div className="col-md-3">
               <SwiperSlide key={index}>
                 <div className="project-card">
                   <h6 className="card-title2">{proj.title2}</h6>
