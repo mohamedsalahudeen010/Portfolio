@@ -5,7 +5,7 @@
     flex-direction: column;
     min-height: 90vh;
     margin-bottom: 10rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 
 }
 
@@ -36,7 +36,7 @@
 
 
 .project-card{
-    width: 95%;
+    width: 100%;
     margin-left: 0.5rem;
     margin-top: 0rem;
     margin-bottom: 2rem;
@@ -66,13 +66,12 @@ border: 0.1rem solid rgb(252, 248, 248);
 }
 
 
-
 .project-netlify-btn{
     width: 40%;
     background-color: rgba(68, 218, 120, 0.819);
     color: whitesmoke;
     margin-top: 0.5rem;
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
     border-radius: 0.3rem;
     box-shadow: 0.2rem 0.2rem 0.2rem black;
     font-size: 0.7rem;
@@ -97,10 +96,10 @@ border: 0.1rem solid rgb(252, 248, 248);
     background-color: rgba(22, 23, 23, 0.819);
     color: whitesmoke;
     margin-top: 0.5rem;
-    padding: 0.3rem 0;
+    padding: 1rem 0;
     border-radius: 0.3rem;
     box-shadow: 0.2rem 0.2rem 0.2rem black;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     margin: 2%;
     font-weight: bold;
 }
