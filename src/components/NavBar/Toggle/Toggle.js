@@ -13,11 +13,12 @@ function Toggle() {
     }
 
   return (
-    <div className='toggle' onClick={handleClick}>
+    <div className='toggle' onClick={handleClick}
+    style={{border:darkMode?"3px solid white":"" }}>
             <Moon/>
             <Sun/>
             <div className='toggle-btn'
-            style={darkMode?{left:"2.2px"}:{right:"2.2px"}}>
+            style={darkMode?{left:"2.2px", backgroundColor:"whitesmoke"}:{right:"2.2px"}}>
 
             </div>
     </div>
