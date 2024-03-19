@@ -3,7 +3,7 @@ import React, { createContext, useContext, useReducer } from "react";
 
 export const themeContext=createContext();
 
-const initialState={lightTheme:false}
+const initialState={lightTheme:true}
 
 
 const themeReducer=(state,action)=>{
