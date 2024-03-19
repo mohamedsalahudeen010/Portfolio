@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import "./NavBar.css"
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -7,12 +7,17 @@ import Toggle from './Toggle/Toggle';
 import {Link} from "react-scroll"
 import Collapse from 'react-bootstrap/Collapse';
 import Dot from "@iconscout/react-unicons/icons/uil-ellipsis-v"
+import { themeContext } from '../../context';
 
 function NavBar() {
    const[open,setOpen]=useState(false)
+   const theme=useContext(themeContext)
+  const lightMode=theme.state.lightTheme;
   return (
    
- <div className='nav-wrapper'>
+ <div className='nav-wrapper'
+ style={{backgroundColor:lightMode?"rgb(108, 108, 109)":"",
+    color:lightMode?"black":""}}>
         <div className='nav-left'>
             <div className='nav-name'>
                 Salahudeen
