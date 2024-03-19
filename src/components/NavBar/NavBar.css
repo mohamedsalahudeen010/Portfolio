@@ -4,13 +4,11 @@
     display: flex;
     justify-content: space-between;
     color: rgb(191, 194, 92);
-    
     position:fixed;
    top: 0px;
     width: 100%;
     z-index: 2;
     background-color: rgb(26, 26, 30);
-    
 }
 
 .nav-left{
@@ -204,4 +202,17 @@ li{
     
   }
 
- 
+ /* @media only screen and (max-width: 500px) {
+   
+   
+    .land-dot-list{
+        position: absolute;
+        margin-top: 4.5rem;
+        margin-left:20rem;
+        display: block;
+        background-color: black;
+        width: 7rem;
+        border-radius: 0.5rem;
+    }
+   
+  } */
