@@ -16,7 +16,7 @@ function NavBar() {
   return (
    
  <div className='nav-wrapper'
- style={
+ style={{
     color:lightMode?"White":""}}>
         <div className='nav-left'>
             <div className='nav-name'>
