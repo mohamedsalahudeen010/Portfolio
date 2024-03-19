@@ -16,8 +16,8 @@ function NavBar() {
   return (
    
  <div className='nav-wrapper'
- style={{backgroundColor:lightMode?"rgb(108, 108, 109)":"",
-    color:lightMode?"black":""}}>
+ style={
+    color:lightMode?"White":""}}>
         <div className='nav-left'>
             <div className='nav-name'>
                 Salahudeen
