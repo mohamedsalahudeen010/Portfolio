@@ -64,7 +64,7 @@ import js from "../components/image/logo/js-logo.webp"
     
     {
         title:"Gold Rate Convertor Application ( FullStack )",
-        title2:"E-Commerce App",
+        title2:"Gold Rate Convertor",
         image:p12,
         netlify:"https://tourmaline-figolla-345c51.netlify.app/",
         frontEnd:"https://github.com/mohamedsalahudeen010/Capstone-FrontEnd",
